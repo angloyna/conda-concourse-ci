@@ -30,6 +30,9 @@ setup(
                                'bootstrap/config/test_platforms.d/*',
                                '*.sh'],
     },
+    install_requires=[
+        'networkx<2.4',
+    ],
     include_package_data=True,
     license="BSD 3-clause",
     zip_safe=False,
